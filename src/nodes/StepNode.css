@@ -1,0 +1,50 @@
+.step-node {
+  position: relative;
+  width: 200px;
+  padding: 16px;
+  background: white;
+  border: 2px solid #cbd5e1;
+  border-radius: 10px;
+  text-align: center;
+  box-shadow: 0 2px 6px rgba(0, 0, 0, 0.08);
+}
+
+.step-node--selected {
+  border-color: #2563eb;
+}
+
+.step-node__title {
+  font-size: 14px;
+  font-weight: 600;
+  margin-bottom: 12px;
+  color: #1e293b;
+}
+
+.step-node__status {
+  display: inline-block;
+  padding: 5px 10px;
+  border-radius: 20px;
+  font-size: 12px;
+}
+
+.step-node__status--pending {
+  background: #f1f5f9;
+  color: #475569;
+}
+
+.step-node__status--processing {
+  background: #fef3c7;
+  color: #92400e;
+}
+
+.step-node__status--approved {
+  background: #dcfce7;
+  color: #166534;
+}
+
+.step-node .react-flow__handle {
+  width: 10px;
+  height: 10px;
+  background: #2563eb;
+  border: 2px solid white;
+}

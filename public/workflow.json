@@ -1,0 +1,77 @@
+{
+  "nodes": [
+    {
+      "quyTrinhNodeID": 1,
+      "sttNode": 1,
+      "moTaNode": "Tiếp nhận yêu cầu",
+      "loaiChuyenTiepAsInt": 0,
+      "soNgayDinhMuc": 0,
+      "nhanSuID": null,
+      "quyTrinhID": 1001,
+      "loaiNodeAsInt": 0,
+      "donViID": null,
+      "toBoMonID": null,
+      "loaiPhanCongXLAsInt": 0,
+      "hanMucPhanCong": 0
+    },
+    {
+      "quyTrinhNodeID": 2,
+      "sttNode": 2,
+      "moTaNode": "Kiểm tra hồ sơ",
+      "loaiChuyenTiepAsInt": 0,
+      "soNgayDinhMuc": 2,
+      "nhanSuID": null,
+      "quyTrinhID": 1001,
+      "loaiNodeAsInt": 0,
+      "donViID": null,
+      "toBoMonID": null,
+      "loaiPhanCongXLAsInt": 0,
+      "hanMucPhanCong": 0
+    },
+    {
+      "quyTrinhNodeID": 3,
+      "sttNode": 3,
+      "moTaNode": "Phê duyệt",
+      "loaiChuyenTiepAsInt": 0,
+      "soNgayDinhMuc": 3,
+      "nhanSuID": null,
+      "quyTrinhID": 1001,
+      "loaiNodeAsInt": 0,
+      "donViID": null,
+      "toBoMonID": null,
+      "loaiPhanCongXLAsInt": 0,
+      "hanMucPhanCong": 0
+    },
+    {
+      "quyTrinhNodeID": 4,
+      "sttNode": 4,
+      "moTaNode": "Hoàn thành",
+      "loaiChuyenTiepAsInt": 0,
+      "soNgayDinhMuc": 0,
+      "nhanSuID": null,
+      "quyTrinhID": 1001,
+      "loaiNodeAsInt": 0,
+      "donViID": null,
+      "toBoMonID": null,
+      "loaiPhanCongXLAsInt": 0,
+      "hanMucPhanCong": 0
+    }
+  ],
+  "edges": [
+    {
+      "quyTrinhEdgeID": 201,
+      "fromQuyTrinhNodeID": 1,
+      "toQuyTrinhNodeID": 2
+    },
+    {
+      "quyTrinhEdgeID": 202,
+      "fromQuyTrinhNodeID": 2,
+      "toQuyTrinhNodeID": 3
+    },
+    {
+      "quyTrinhEdgeID": 203,
+      "fromQuyTrinhNodeID": 3,
+      "toQuyTrinhNodeID": 4
+    }
+  ]
+}
